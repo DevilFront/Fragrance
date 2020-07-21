@@ -1,0 +1,87 @@
+#header{
+    height: 120px;
+    /* background: red; */
+}
+
+/*-----------------로고----------------*/
+
+.logo{
+    
+}
+
+
+/*--------------------검색창--------------------*/
+.search{
+    /* background: orange; */
+    height: 40px;
+}
+
+
+/*----------로그인-------------*/
+.member-menu{
+    /* background: skyblue; */
+    height: 40px;
+}
+
+
+
+/*-----------------배너----------------------------------*/
+
+
+#body{
+    height:auto;
+    
+   /* background: rgb(0, 30, 128); */
+}
+.main{
+    height:max-content;
+    width: 1240px; 
+}
+.sub-menu{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+    height: 30px;
+    width: 1240px;
+    /* background: blue; */
+    /* margin-left: 130px; */
+    /*margin-left: 350px;*/
+}
+/*-----媛����댁� 1�� ���� ------------------------*/
+.best-item{
+    
+    
+}
+.best-item>div{
+    height: auto;
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    
+}
+.best-item>div>div{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/*----------�⑤�� 1�� ���� ������-----------------*/
+
+.ad-video{
+    margin-top: 50px;
+    height: 470px;
+    width: 1240px;
+}
+
+/*--------異�泥� ���댄��---------------------------*/
+.recomm{
+    width: 1240px;
+    margin-top: 30px;
+}
+/*--------footer---------------------------*/
+#footer{
+    height: 30px;
+    margin-top: 10px;
+}
+.footer-container{
+    height: 100%;
+}

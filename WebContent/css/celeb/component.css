@@ -1,0 +1,364 @@
+﻿/*---------logo--------------*/
+.logo {
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*--------header------------*/
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*------------------search-----------------------------*/
+.search {
+	position: relative;
+	margin-left: 40px;
+}
+
+.search>div {
+	display: flex;
+	align-items: center;
+}
+
+.search input[type="submit"] {
+	border: 0px;
+	height: 25px;
+	width: 31px;
+	text-indent: -9999px;
+	position: absolute;
+	bottom: 12px;
+	background: rgba(0, 0, 0, 0);
+}
+
+.search input[type="text"] {
+	border: solid 5px #5e4719;
+	border-radius: 75px;
+}
+
+
+/*--------------longin & memeber -----------------*/
+
+.member-menu {
+    margin-right: 40px;
+}
+
+.member-menu>ul {
+    display: flex;
+    font-family: 'Lato', "고딕", Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 15px;
+    color: #000;
+}
+
+.member-menu>ul>li {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/*------main menu------------*/
+.main-category {
+	height: 60px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	background-color: rgb(255, 255, 255, 0.7);
+	z-index: 999; 
+}
+
+.main-menu ul {
+	display: flex;
+	justify-content: center;
+	font-family: "맑은 고딕", "고딕", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #000;
+	text-decoration: none;
+}
+
+.main-menu>ul>li { 
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 10px;
+}
+
+.main-menu a {
+	color: #000;
+	transition: 0.3s;
+	background-color: rgb(255, 255, 255, 0);
+}
+
+.main-menu a:hover {
+	background-color: rgb(255, 255, 255, 0);
+	transition: 0.3s;
+	color: brown;
+	text-decoration: none;
+}
+
+.hide.show {
+	color: #000;
+	/* background: black; */
+	transition: 0.3s;
+	/* transition: 0.2s; */
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 1;
+}
+
+.hide {
+	color: #000;
+	transition: 0.2s;
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 0.2;
+}
+
+
+
+/*---------------------body ------------------------*/
+#body{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* -------------article banner images---------------------------- */
+
+.img:hover{
+    opacity: 0.5;
+    border: 3px solid lightgrey;
+    border-radius: 20px; 
+    transform: scale( 1.0, 1.0 );
+}
+.item1 img {
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    display: block;
+    max-width: 765px; /* 넓이를 지정 */
+    max-height: 500px;
+    
+    
+}
+.item2 img {
+    display: block;
+    
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    max-width: 414px; /* 넓이를 지정 */
+    max-height: 845px;
+}
+.item3 img {
+    display: block;
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    max-width: 375px; /* 넓이를 지정 */
+    max-height: 400px;
+}
+.item4 img {
+    display: block;
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    max-width: 375px; /* 넓이를 지정 */
+    max-height: 400px;
+}
+.item5 img {
+    display: block;
+    margin : auto ;
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    mmax-width: 780px; /* 넓이를 지정 */
+    max-height: 300px;
+}
+.item6 img {
+    display: block;
+    margin : auto ;
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    max-width: 780px; /* 넓이를 지정 */
+    max-height: 300px;
+}
+.item7 img {
+    display: block;
+    margin : auto ;
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    max-width: 450px; /* 넓이를 지정 */
+    max-height: 732px;
+}
+.item8 img {
+    display: block;
+    margin : auto ;
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    max-width: 700px; /* 넓이를 지정 */
+    max-height: 400px;
+}
+.item9 img {
+    display: block;
+    margin : auto ;
+    resize: both; /* 이미지 최대 사이즈에 적용 */
+    float: center; /* 가운데 정렬 */
+    max-width: 700px; /* 넓이를 지정 */
+    max-height: 400px;
+}
+
+/*------------onload button------------------*/   
+.onload{/*버튼 누르면, 추가 항목 생성*/
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 450px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.onload:hover{ /* 기사 누르면, 상세버튼 색상 변경*/
+    background-color: #999999;
+    color: white;
+}
+
+.add-onload{/*버튼 누르면, 추가 항목 생성*/
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 450px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.add-onload:hover{ /* 기사 누르면, 상세버튼 색상 변경*/
+    background-color: #999999;
+    color: white;
+}
+
+ /* --------------detail banner------------- */
+
+.description{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    margin : auto;
+    border:1px solid black;
+    max-width: 1140px; 
+    max-height: 600px;
+    /* overflow: auto; */
+    /* opacity: 0.9; */
+    z-index: 999;
+    /* border: 0px; */
+}
+ 
+.d-header{
+    margin-top: 10px;
+    margin: 0px 20px;
+    text-align: center;
+    /* background-color: gray; */
+}
+.box{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 50px;
+}
+    
+    .d-title{ /* 기사 누르면 뜨는 타이틀*/
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "휴먼모음T";
+        
+    }
+    .d-img{ /* 기사 누르면 뜨는 이미지*/
+        /* width: 550px; */
+        float: left;
+        z-index: 1000;
+        margin: 30px 20px;
+        
+    }
+
+
+    .close{ /* 기사 누르면 X 표시 눌러서 종료하는 버튼*/
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        }
+        .close>img{
+            width: 40px;
+            height: 40px;
+        }
+
+     .d-coment{
+        position: relative;
+        top:15px;
+        margin-right: 50px;
+        font-size: 20px;
+        font-size: 18px;
+        letter-spacing: -1.2px;
+        line-height: 1.6;
+        height: 380px;
+        overflow: auto;
+    }
+   
+    .d-buttons{ /* 기사 누르면 뜨는 상세정보쪽 버튼들*/
+        display: flex;
+        position: absolute;
+        top:410px;
+        left:600px; 
+        margin: 100px 0; 
+    }
+
+    .d-button{
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 450px;
+        color: #ffffff;
+        background-color: #000000;
+        margin-right: 10px;
+    }
+    .d-button:hover{ /* 기사 누르면, 상세버튼 색상 변경*/
+        background-color: #999999;
+        color: white;
+    }
+
+    .d-like{ /* 기사 누르면, 좋아요 버튼*/
+        width: 50px;
+        height: 50px;   
+        border: none;
+        background: none; 
+        background-image: url("../../images/celeb/unlike.png") ;
+        background-size: cover;
+    }
+    .d-unlike{ /* 기사 누르면, 좋아요 해지 버튼*/
+        width: 50px;
+        height: 50px;   
+        border: none;
+        background: none; 
+        background-image: url("../../images/celeb/like.png") ;
+        background-size: cover;
+    }
+ 
+/*------------footer------------------*/
+.footer-container {
+	font-size: 14px;
+	font-weight: 200;
+	color: gray;
+	margin-top: 100px;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	background: whitesmoke;
+}

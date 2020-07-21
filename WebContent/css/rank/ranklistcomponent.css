@@ -1,0 +1,305 @@
+/*---------濡쒓퀬 �쐞移�--------------*/
+.logo { -
+	-background: pink;
+	height: 70px;
+	width: 300px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+/*--------�뿤�뜑 �쐞移�------------*/
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search {
+	position: relative;
+	margin-left: 40px;
+}
+
+.search>div {
+	display: flex;
+	align-items: center;
+}
+
+.search input[type="submit"] {
+	border: 0px;
+	height: 25px;
+	width: 31px;
+	text-indent: -9999px;
+	position: absolute;
+	/* right: 20px; */
+	bottom: 12px;
+	background: rgba(0, 0, 0, 0);
+	/* margin-left: 40px; */
+}
+
+.search input[type="text"] {
+	border: solid 5px #5e4719;
+	border-radius: 75px;
+}
+
+.member-menu {
+	margin-right: 40px;
+}
+
+.member-menu>ul {
+	display: flex;
+	font-family: 'Lato', "怨좊뵓", Arial, Helvetica, sans-serif; -
+	-font-family: 'Lato', sans-serif;
+	background-color: white; -
+	-font-weight: bold;
+	font-size: 15px;
+	color: #000;
+}
+
+.member-menu>ul>li {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.main-category {
+	height: 60px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	background-color: rgb(255, 255, 255, 0.7);
+	z-index: 999; -
+	-margin-left: 60px;
+}
+
+.main-menu ul {
+	display: flex;
+	justify-content: center;
+	font-family: "留묒� 怨좊뵓", "怨좊뵓", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #000;
+	text-decoration: none;
+}
+
+.main-menu>ul>li { -
+	-padding-top: 10px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 10px; -
+	-background-color: rgb(255, 255, 255, 0);
+}
+
+.main-menu a {
+	color: #000;
+	transition: 0.3s;
+	background-color: rgb(255, 255, 255, 0);
+}
+
+.main-menu a:hover {
+	background-color: rgb(255, 255, 255, 0);
+	transition: 0.3s;
+	color: brown;
+	text-decoration: none;
+}
+
+.hide.show {
+	color: #000;
+	/* background: black; */
+	transition: 0.3s;
+	/* transition: 0.2s; */
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 1;
+}
+
+.hide {
+	color: #000;
+	transition: 0.2s;
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 0.2;
+}
+
+/*------body (�꽌釉뚮찓�돱遺��꽣 footer�쟾源뚯�)-----*/
+#body {
+	display: flex;
+	justify-content: center;
+}
+
+/*------------------------sub menu------------------------------*/
+.sub-menu>ul {
+	display: flex;
+	justify-content: center;
+	font-family: "留묒� 怨좊뵓", "怨좊뵓", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.sub-menu>ul>li {
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.sub-menu a {
+	color: #000;
+	transition: 0.3s;
+}
+
+.sub-menu a:hover {
+	transition: 0.3s;
+	color: brown;
+	text-decoration: none;
+}
+/*----------banner-----------------------*/
+.banner {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.banner-slide>img {
+	width: 1400px;
+	height: 400px;
+}
+
+.banner-slide {
+	margin-left: auto;
+	margin-right: auto;
+	/* background-size: contain; */
+	position: absolute; 
+	top: 0px; 
+	z-index: 0;
+	opacity: 0;
+	transition: opacity .7s ease-in-out;
+	background
+} 
+
+.showing {
+	z-index: 1;
+	opacity: 1;
+	transform: scale(1.03);
+	transition: 3s;
+} 
+
+
+
+
+/*--------------테이블 영역------------------*/
+.list {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.list-table {
+	/*  table-layout: fixed;*/
+	width: 100%;
+	border: #000 solid 1px; -
+	-border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: none;
+	border-right: none;
+	border-bottom: #808080 solid 3px;
+}
+
+.table-img img {
+	width: 140px;
+	height: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* background-color: #9b0074; */
+	background-size: cover;
+}
+
+.list-table thead {
+	font-weight: bold;
+}
+
+.list-table a {
+	color: black;
+}
+
+.list-table a:hover {
+	text-decoration: none;
+}
+
+.list-table>thead>tr {
+	height: 45px;
+	border-bottom: #808080 solid 2px;
+}
+
+.list-table>thead td { -
+	-border: 2px solid blue; -
+	-border-radius: 50px;
+	min-width: 60px;
+	border-top: #808080 solid 3px;
+	opacity: 0.7;
+}
+
+.list-table>tbody td {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: #808080 solid 2px;
+	min-width: 80px; -
+	-border-radius: 50px;
+}
+
+.list thead>tr>td:first-child {
+	width: 100px;
+}
+
+.list-table tbody tr:hover {
+	background-color: rgba(237, 243, 243, 0.952);
+	transition: 0.3s;
+}
+
+.list-table tbody td:nth-child(3):hover {
+	z-index: -200;
+	transition: 0.7s;
+	font-size: 17px;
+}
+
+.effect {
+	width: 400px;
+}
+
+/*--------paging----------------------------------------*/
+.orange {
+	color: orange;
+}
+
+.pager {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 300px;
+	height: 100px;
+	font-size: 30px;
+	position: relative;
+}
+
+.pager>ul {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	min-width: 400px;
+	height: 100px;
+	text-align: center;
+}
+
+.pager ul li:last-child {
+	right: 600px;
+	top: 80px;
+	position: absolute;
+}
+
+.pager li {
+	padding-left: 20px;
+}
+/*----- -----------------------------------*/
+#footer {
+	height: 30px;
+	margin-top: 10px;
+}
+
+.footer-container {
+	height: 100%;
+}

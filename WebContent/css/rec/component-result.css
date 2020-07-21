@@ -1,0 +1,275 @@
+.logo {
+    --background: pink;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*--------헤더 위치------------*/
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search {
+    /* position: relative; */
+    margin-left: 40px;
+}
+
+.search>div {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="submit"] {
+    border: 0px;
+    height: 25px;
+    width: 31px;
+    text-indent: -9999px;
+    /* position: absolute; */
+    /* right: 20px; */
+    bottom: 12px;
+    background: rgba(0, 0, 0, 0);
+    /* margin-left: 40px; */
+}
+
+.search input[type="text"] {
+    border: solid 5px #5e4719;
+    border-radius: 75px;
+}
+
+
+.member-menu {
+    margin-right: 40px;
+}
+
+.member-menu>ul {
+    display: flex;
+    font-family: 'Lato', "고딕", Arial, Helvetica, sans-serif;
+    --font-family:'Lato' , sans-serif;
+    background-color: #f8f8f8;
+    --font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+.member-menu>ul>li {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main-category {
+    height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255, 0.7);
+    z-index: 999;
+    --margin-left: 60px;
+
+}
+
+
+
+.main-menu ul {
+    display: flex;
+    justify-content: center;
+    font-family: "맑은 고딕", "고딕", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000;
+    text-decoration: none;
+}
+
+.main-menu>ul>li {
+    --padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+    /* padding-bottom: 10px; */
+    --background-color: rgb(255, 255, 255, 0);
+}
+
+.main-menu a {
+    color: #000;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255, 0);
+    
+    
+}
+
+.main-menu a:hover {
+    background-color: rgb(255, 255, 255, 0);
+    transition: 0.3s;
+    color: brown;
+    text-decoration: none;
+
+}
+.hide.show{
+    color: #000;
+    /* background: black; */
+    transition: 0.3s;
+    /* transition: 0.2s; */
+    background-color: rgb(255, 255, 255, 0);  
+    
+    opacity: 1;
+}
+.hide{
+    color: #000;
+    transition: 0.2s;
+    background-color: rgb(255, 255, 255, 0);
+    opacity: 0.2;
+}
+.brown{
+    color: brown;
+    transition: 0.2s;
+}
+
+
+/*--------------지욱result main start ---------------------*/
+
+/* -------추천상품 타이틀-------------- */
+.recomm-title{
+    font-family: '맑음';
+    font-size: 30px;
+    --font-weight:0;
+    text-align: center;
+    padding: 110px 0 70px;
+    background:white;
+    width: 1240px;
+}
+
+/* -------추천상품 3가지 목록------ */
+.recomm-tag-prdlist {
+    width: 1240px;
+    height: 420px;
+    background:white;
+    position: relative;
+    display: flex;
+    font-family: "Noto Sans KR", Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+ }
+ 
+ .prdinfo-warp {
+    width: 1240px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .prdinfo-warp li{
+    height: 300px;
+ }
+ 
+    .prdinfo-warp>li>a {
+       text-decoration: none;
+       color: #000;
+       width: 310px;
+       height: 420px;
+       margin-top: 0;
+    }
+ 
+    .prdinfo-warp .prdinfo-warp-img {
+       display: inline-block;
+       width: 290px;
+       height: 350px;
+    }
+    
+    .prdinfo-warp .prdinfo-warp-img img {
+       width: 290px;
+       height: 350px;
+    }
+ 
+    .prdinfo-warp .prdinfo-warp-text {
+       align-items: center;
+       height: 50px;
+       text-align: center;
+       font-size: 12px;
+    }
+ 
+       .prdinfo-warp-text>span {
+          font-size: 18px;
+          font-weight: 400;
+          letter-spacing: -1.2px;
+          text-decoration: none;
+          padding: 20px 0;
+       }
+ 
+       .prdinfo-warp-text>p {
+          margin-top: 10px;
+          text-decoration: none;
+       }
+/* ------------------선택결과--------------------- */
+
+.select-result-title{
+    font-family: '맑음';
+    font-size: 30px;
+    text-align: center;
+    padding : 110px 0 70px;
+    background:white;
+    width: 1240px;
+
+}
+.select-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.select-result-list ul{
+    display: flex;
+    background-color: white;
+    width: 1240px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+    .select-result-list ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 100px;
+        background: rgb(59, 55, 55);
+        color: white;
+        margin: 0 15px 0;
+        border-radius:100px;
+    }
+
+        .select-result-list ul li span:first-child{
+            font-size: 18px;
+            color: rgb(221, 223, 97);
+            padding-bottom: 5px;
+        }
+
+        .select-result-list ul li span:last-child{
+            font-size: 30px;
+        }
+
+
+/*--------------지욱result main end ---------------------*/
+
+/*------------footer------------------*/
+.footer-container{
+    font-size: 14px;
+    font-weight: 200;
+    color: gray;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+    background:whitesmoke;
+    
+}
+
+

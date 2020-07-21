@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/view/HTML/rec/survey.jsp=UTF-8
+encoding//WebContent/css/celeb/style.css=UTF-8
+encoding//WebContent/css/home/style.css=UTF-8
+encoding//WebContent/css/rank/rankliststyle.css=UTF-8
+encoding//WebContent/css/rank/rankstyle.css=UTF-8
+encoding//WebContent/css/rec/component-result.css=UTF-8
+encoding//WebContent/css/rec/component.css=UTF-8
+encoding//WebContent/css/rec/layout-result.css=UTF-8
+encoding//WebContent/css/rec/layout-survey.css=UTF-8
+encoding//WebContent/css/rec/layout.css=UTF-8
+encoding//WebContent/css/rec/recomm.css=UTF-8
+encoding//WebContent/css/rec/style-recomm.css=UTF-8
+encoding//src/com/fragrance/web/controller/recommend/RecommentRestController.java=UTF-8
+encoding//src/com/fragrance/web/service/HomeService.java=UTF-8
+encoding//src/com/fragrance/web/service/RankServices.java=UTF-8

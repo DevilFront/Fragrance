@@ -1,0 +1,29 @@
+@import url(layout.css);
+@import url(ranklistcomponent.css);  
+@import url(detail.css); 
+@import url(search.css); 
+
+.d-none{
+    display: none;
+/*<h1 class="d-none">揶쏅벡伊뽩칰占쏙옙源� 占쎈쨲</h1> 
+    占쎈엘占쎈쐭占쎈퓠 h1 占쎄퐬占쎌젟占쎈뻥占쎈쐲 �겫占썽겫占� 占쎈뮞占쏙옙占쎌뵬 占쎈툧�솒諛댁쓺 占쎄퐬占쎌젟占쎈릭占쎈뮉 野껓옙*/
+}
+
+
+.top-end-bt{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 30px;
+    bottom: 60px;
+}
+    .top-end-bt .top{
+       transition: 1s;
+       width: 30px;
+       height: 30px;
+    }
+    .top-end-bt .end{
+       transition: 1s;
+       width: 30px;
+       height: 30px;
+    }

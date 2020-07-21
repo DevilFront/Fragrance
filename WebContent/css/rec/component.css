@@ -1,0 +1,284 @@
+/*---------logo--------------*/
+.logo { 
+	--background: pink;
+	height: 70px;
+	width: 300px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+/*--------header------------*/
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*---------------search-----------------------------*/
+.search {
+	position: relative;
+	margin-left: 40px;
+}
+
+.search>div {
+	display: flex;
+	align-items: center;
+}
+
+.search input[type="submit"] {
+	border: 0px;
+	height: 25px;
+	width: 31px;
+	text-indent: -9999px;
+	position: absolute;
+	/* right: 20px; */
+	bottom: 12px;
+	background: rgba(0, 0, 0, 0);
+	/* margin-left: 40px; */
+}
+
+.search input[type="text"] {
+	border: solid 5px #5e4719;
+	border-radius: 75px;
+}
+
+/*-----------------login & member -----------------*/
+.member-menu {
+    margin-right: 40px;
+}
+
+.member-menu>ul {
+    display: flex;
+    font-family: 'Lato', "고딕", Arial, Helvetica, sans-serif;
+    --font-family:'Lato' , sans-serif;
+    background-color: white;
+    --font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+.member-menu>ul>li {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*-----------------main menu -----------------*/
+.main-category {
+	height: 60px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	background-color: rgb(255, 255, 255, 0.7);
+	z-index: 999; -
+	-margin-left: 60px;
+}
+
+.main-menu ul {
+	display: flex;
+	justify-content: center;
+	font-family: "맑은 고딕", "고딕", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #000;
+	text-decoration: none;
+}
+
+.main-menu>ul>li { -
+	-padding-top: 10px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 10px;
+}
+
+.main-menu a {
+	color: #000;
+	transition: 0.3s;
+	background-color: rgb(255, 255, 255, 0);
+}
+
+.main-menu a:hover {
+	background-color: rgb(255, 255, 255, 0);
+	transition: 0.3s;
+	color: brown;
+	text-decoration: none;
+}
+
+.hide.show {
+	color: #000;
+	/* background: black; */
+	transition: 0.3s;
+	/* transition: 0.2s; */
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 1;
+}
+
+.hide {
+	color: #000;
+	transition: 0.2s;
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 0.2;
+}
+
+/*------body (서브메뉴부터 footer전까지)-----*/
+#body{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*------------------------sub menu------------------------------*/
+.sub-menu >ul{
+    display: flex;
+    justify-content: center;
+    font-family: "맑은 고딕", "고딕", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+    .sub-menu >ul >li{
+        padding-top:10px; 
+        padding-right: 50px; 
+        padding-left: 50px; 
+    }
+ .sub-menu a{
+    color:#000;
+    background: white;
+ }
+  .sub-menu a:hover{
+    color:#9b0074;
+ }
+
+
+/*---------------1위 상품------------------*/
+.best-item{
+    display: flex;
+    padding-top: 10px;
+    font-size: 23px;
+}
+.best-item>div>h2{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.best-item-m{
+    padding-right: 10px;
+    display: flex;
+    height: 250px;
+    font-size: 15px;
+}
+    .best-item-m>div{
+        display: flex;
+        justify-content: center;
+        background: grey;
+    } 
+    .best-item-m>div img{
+        display: flex;
+        justify-content: center;
+        height:200px; 
+        width: 150px;
+        padding-top: 30px;
+    }
+    .best-item-m>div>ul{
+        padding-top: 50px;
+    }
+        .best-item-m>div>ul>li{
+            padding-top: 10px;
+        }           
+
+
+.best-item-w{
+    padding-left: 10px;
+    display: flex;
+    height: 250px;
+    font-size: 15px;
+    }
+    .best-item-w>div{
+        display: flex;
+        justify-content: center;
+        background: rgb(172, 116, 116);
+    } 
+    .best-item-w>div img{
+        display: flex;
+        justify-content: center;
+        height:200px; 
+        width: 150px;
+        padding-top: 30px;
+    }
+    .best-item-w>div>ul{
+        padding-top: 50px;
+    }
+        .best-item-w>div>ul>li{
+            padding-top: 10px;
+        } 
+
+/*------------1위 상품 광고------------------*/
+.ad-video{
+    
+}
+    .ad-video>ul{
+        display: flex;
+        justify-content: center;
+    }
+        .ad-video>ul>li{ 
+/*li만 속성이 먹혀야지 동영상 사이즈가 안밀림. 방법 찾아야함.*/
+            padding-left:130px;
+            padding-right:130px;
+            padding-top: 10px;
+        }
+
+ .ad-video-m{
+    visibility: visible; 
+    width: 1080px; 
+    height: 315px; 
+    margin-left: -249.5px; 
+    padding-top: 50px;
+}
+.ad-video-w{
+    visibility: visible; 
+    width: 1080px; 
+    height: 315px; 
+    margin-left: -249.5px; 
+    padding-top: 50px;
+} 
+
+/*------------추천 상품------------------*/
+
+.recomm>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 23px;
+    
+}
+.recomm ul{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+    .recomm li{
+        padding-top: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+        background: blanchedalmond;
+        
+        
+    }
+    .recomm>div>ul>li{
+        margin-top: 10px;
+        margin-left: 50px;
+        --background-color: rgb(9, 97, 88);
+      }
+/*------------footer------------------*/
+.footer-container{
+    font-size: 14px;
+    font-weight: 200;
+    color: gray;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+    background:whitesmoke;
+    
+}
+
+

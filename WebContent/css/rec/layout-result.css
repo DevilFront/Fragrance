@@ -1,0 +1,47 @@
+#header{
+    height: 130px;
+    --background: red;
+}
+
+.header-menu {
+    display: flex;
+    
+}
+
+/*-----------------로고----------------*/
+
+
+
+/*--------------------검색창--------------------*/
+.search{
+    --background: orange;
+    height: 40px;
+}
+
+
+/*----------로그인-------------*/
+.member-menu{
+    --background: skyblue;
+    height: 40px;
+}
+
+
+/*-------------메인영역 크기 및 위치조정-------------*/
+.result-content-container{
+    width: 1240px;
+    min-height: 300px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*-------------풋터-------------*/
+#footer{
+    height: 30px;
+    --margin-top: 100px;
+}
+.footer-container{
+    height: 100%;
+}

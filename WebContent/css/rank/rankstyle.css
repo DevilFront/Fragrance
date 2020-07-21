@@ -1,0 +1,32 @@
+@import url(layout.css);
+@import url(component.css); 
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+.d-none{
+    display: none;
+/*<h1 class="d-none">媛뺤쥖寃��깋 �뤌</h1> 
+    �뿤�뜑�뿉 h1 �꽕�젙�뻽�뜕 遺�遺� �뒪���씪 �븞癒밴쾶 �꽕�젙�븯�뒗 寃�*/
+}
+
+body{
+    font-family:'Lato' , sans-serif;
+}
+
+
+.top-end-bt{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 30px;
+    bottom: 60px;
+}
+    .top-end-bt .top{
+       transition: 1s;
+       width: 30px;
+       height: 30px;
+    }
+    .top-end-bt .end{
+       transition: 1s;
+       width: 30px;
+       height: 30px;
+    }

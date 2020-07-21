@@ -1,0 +1,61 @@
+#header{
+    height: 120px;
+}
+#header a{
+	color:black;
+}
+
+/*--------------------검색창--------------------*/
+.search{
+    height: 40px;
+}
+
+
+/*----------로그인-------------*/
+.member-menu{
+    height: 40px;
+}
+
+
+
+
+/*-----------------諛곕꼫----------------------------------*/
+
+#body{
+    min-height: 1400px;
+}
+.main{
+    width: 1240px; 
+    height:max-content;
+}
+.sub-menu{
+    margin-top: 50px;
+    height: 128px;
+     font-size: 80px;
+}
+
+
+
+.content-container{
+    width: 1240px;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------footer------------------*/
+#footer{
+    height: 30px;
+    margin-top: 10px;
+}
+	.footer-container {
+		  height: 100%;
+		font-size: 14px;
+		font-weight: 200;
+		color: gray;
+		margin-top: 100px;
+		text-align: center;
+		width: 100%;
+		padding: 30px 0;
+		background: whitesmoke;
+	}

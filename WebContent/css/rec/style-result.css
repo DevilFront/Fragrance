@@ -1,0 +1,32 @@
+@import url(component-result.css);
+@import url(layout-result.css); 
+
+.d-none{
+    display: none;
+/*<h1 class="d-none">강좌검색 폼</h1> 
+    헤더에 h1 설정했던 부분 스타일 안먹게 설정하는 것*/
+}
+
+.top-end-bt{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 30px;
+    bottom: 60px;
+}
+    .top-end-bt .top{
+       transition: 1s;
+       width: 30px;
+       height: 30px;
+    }
+    .top-end-bt .end{
+       transition: 1s;
+       width: 30px;
+       height: 30px;
+    }
+
+
+
+a:hover{
+text-decoration: none;
+}

@@ -1,0 +1,424 @@
+.d-none{
+    display: none;
+}
+
+#body .main{
+    position: relative;
+    display: flex;
+}
+
+
+/*------------------- aside start ----------------------------------*/
+
+#aside .left_area{
+    width: 180px;
+    min-height: 1000%;
+    background: #fafafa;
+    border-right: 1px solid #c2c2c2;
+}
+    .left_area>h1 {
+        border-bottom: 1px solid #c2c2c2;
+        border-left: none;
+        border-right: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.2;
+        text-align: center;
+        height: 100px;
+        padding-top: 75px;
+    }
+
+.left-menu section{
+    padding: 30px 40px;
+    border-bottom: 1px solid #c2c2c2;
+}
+    .left-menu ul{
+        padding-bottom: 12px;
+    }
+    .left-menu ul li{
+        padding-top: 14px;
+    }
+        .titmenu{
+            border-left: none;
+            border-right: none;
+            padding-bottom: 4px;
+            color: #555;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 2.2;
+        }
+        
+        .submenu li a {
+            color: #555;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+        }
+            .submenu li a:hover {
+                color: white;
+                border: 3px solid #555;
+                background-color: #555;
+            }
+
+/*------------------- aside end -----------------------------------*/
+
+.main-prdlist{
+    padding-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.prdlist{
+    width: 1240px;
+}
+
+.prdlist h1{
+    padding: 60px 0 10px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.admin-btn{
+    display: flex;
+}
+    .admin-btn .leftbtn button{
+    font-size: 15px;
+        margin-right: 5px;
+        background-color: #f3f3f3;
+        width: 90px;
+        height: 34px;
+        color: #000;
+        border: #555 1px solid;
+    }   
+    
+    .admin-btn .leftbtn button:hover{
+        background-color: #555;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+    }
+     .leftbtn2 {
+    font-size: 15px;
+    display: inline;
+    position : relative;
+    top: -34px;
+    left: 95px;
+    margin-right: 5px;
+    background-color: #f3f3f3;
+    width: 90px;
+    height: 34px;
+    color: #000;
+    border: #555 1px solid;
+    }
+    
+    
+    
+    .leftbtn3 {
+    font-size: 15px;
+    display: inline;
+    position : relative;
+    top : -54px;
+    left :0px;
+    margin-right: 5px;
+    background-color: #f3f3f3;
+    width: 90px;
+    height: 34px;
+    color: #000;
+    border: #555 1px solid;
+    }
+    
+     .leftbtn3:hover{
+     background-color: #555;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+    
+    }
+    
+    
+    .leftbtn4 {
+    font-size: 15px;
+    display: inline;
+    position : relative;
+    top : -34px;
+    left :0px;
+    margin-right: 5px;
+    background-color: #f3f3f3;
+    width: 90px;
+    height: 34px;
+    color: #000;
+    border: #555 1px solid;
+    }
+    
+     .leftbtn4:hover{
+     background-color: #555;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+    
+    }
+    
+    .leftbtn5 {
+    font-size: 15px;
+    display: inline;
+    position : relative;
+    top : -34px;
+    left :0px;
+    margin-right: 5px;
+    background-color: #f3f3f3;
+    width: 90px;
+    height: 34px;
+    color: #000;
+    border: #555 1px solid;
+    }
+    
+     .leftbtn5:hover{
+     background-color: #555;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+    
+    }
+    
+    
+    
+    .leftbtn2:hover{
+     background-color: #555;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+    
+    }
+    
+
+
+    
+.rightbtn-gohome {
+    margin-left: 1050px;
+}
+    .rightbtn-gohome button{
+    width: 90px;
+    height: 34px;
+    right: 0;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    }
+    
+    .rightbtn4-gohome {
+    margin-left: 1150px;
+}
+    .rightbtn4-gohome button{
+    width: 90px;
+    height: 34px;
+    right: 0;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    }
+    
+    
+    .rightbtn5-gohome {
+    margin-left: 1150px;
+}
+    .rightbtn5-gohome button{
+    width: 90px;
+    height: 34px;
+    right: 0;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    }
+    
+   
+        
+    
+.prdlist-table{
+    border: 1px solid #c2c2c2; 
+    padding: 20px;
+
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .prdlist-table thead {
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        border-left: none;
+    }   
+        .prdlist-table>thead>tr {
+            height:34px;
+        }
+        
+        .prdlist-table>thead td {
+            background-color: #777;
+            border: 1px solid #777;   
+            border-right: 1px solid #666;
+        }
+        
+    .prdlist-table>tbody td {
+        border-bottom: 1px solid #c2c2c2; 
+        border-right: 1px solid #c2c2c2; 
+        height:60px;
+    } 
+    .prdlist-table>tbody td a {
+        color: #000;
+        text-decoration: none;
+        --text-decoration: underline;
+    }
+    
+    /* .prdlist-table>thead>td>.tdwidth{
+        width: 160px;
+    }
+    .prdlist-table>tbody>td>.tdwidth{
+        width: 160px;
+    } */
+
+    /*
+    .prd-name{
+        height: 50%;
+    }
+    .prd-img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    } */
+        
+    /* 
+    .prdlist-table>tbody td form{
+        display: flex;
+        justify-content: center;
+    }
+        .prdlist-table>tbody td input{
+            width: 15px;
+            height: 15px;
+        }
+        .prdlist-table>tbody td form div button{
+            margin-right: 4px;
+            height: 26px;
+            border-style: none;
+            border: #555 1px solid;
+            background-color: #f3f3f3;
+            color: #000;
+        }
+            .prdlist-table>tbody td form div button:hover{
+                background-color: #555;
+                color: #fff;
+                font-weight: bold;
+            } */
+
+
+
+/*-------------- page -----------------*/
+
+.pager{
+    margin: 40px auto 80px auto;
+    width: 50px;
+}
+
+    .pager div{
+        justify-content: center;
+        display: inline-flex;
+    }
+
+    .pager ul{
+        display: flex;
+    }
+
+        .pager li{
+            width:15px;
+            height: 15px;   
+            text-align: center;  
+            padding-left: 10px;
+            list-style: none;       
+        }
+
+        .pager .btn-prev{
+            width: 15px;
+            height: 15px;
+            background: url("../../images/btn-prev.png") no-repeat center;
+            text-indent: -999px;
+            overflow: hidden;
+            margin-top: 3px;
+        }
+ 
+        .pager .btn-next{
+            width: 15px;
+            height: 15px;
+            background: url("../../images/btn-next.png") no-repeat center;
+            text-indent: -999px;
+            overflow: hidden;
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+
+        .pager a {
+            text-decoration: none;
+            color: black;
+            width:15px;
+        }
+        
+        .thispage{
+            font-weight: bold;
+        }
+     
+        
+.pager2{
+    margin: 40px 660px 80px auto;
+    width: 270px;
+}
+
+    .pager2 div{
+        justify-content: center;
+        display: inline-flex;
+    }
+
+    .pager2 ul{
+        display: flex;
+    }
+
+        .pager2 li{
+            width:15px;
+            height: 15px;   
+            text-align: center;  
+            padding-left: 10px;
+            list-style: none;       
+        }
+
+        .pager2 .btn-prev{
+            width: 15px;
+            height: 15px;
+            background: url("../../images/btn-prev.png") no-repeat center;
+            text-indent: -999px;
+            overflow: hidden;
+            margin-top: 3px;
+        }
+ 
+        .pager2 .btn-next{
+            width: 15px;
+            height: 15px;
+            background: url("../../images/btn-next.png") no-repeat center;
+            text-indent: -999px;
+            overflow: hidden;
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+
+        .pager2 a {
+            text-decoration: none;
+            color: black;
+            width:15px;
+        }
+        
+        .thispage{
+            font-weight: bold;
+        }
+        

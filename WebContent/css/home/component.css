@@ -1,0 +1,389 @@
+/*---------logo--------------*/
+.logo { 
+	height: 70px;
+	width: 300px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+/*--------header------------*/
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*---------------search-----------------------------*/
+.search {
+	position: relative;
+	margin-left: 40px;
+}
+
+.search>div {
+	display: flex;
+	align-items: center;
+}
+
+.search input[type="submit"] {
+	border: 0px;
+	height: 25px;
+	width: 31px;
+	text-indent: -9999px;
+	position: absolute;
+	bottom: 12px;
+	background: rgba(0, 0, 0, 0);
+}
+
+.search input[type="text"] {
+	border: solid 5px #5e4719;
+	border-radius: 75px;
+}
+
+/*-----------------login & member -----------------*/
+.member-menu {
+    margin-right: 40px;
+}
+
+.member-menu>ul {
+    display: flex;
+    font-family: 'Lato', "고딕", Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 15px;
+    color: #000;
+}
+
+.member-menu>ul>li {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/*-----------------main menu -----------------*/
+.main-category {
+	height: 60px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	background-color: rgb(255, 255, 255, 0.7);
+	z-index: 999; 
+}
+
+.main-menu ul {
+	display: flex;
+	justify-content: center;
+	font-family: "맑은 고딕", "고딕", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	color: #000;
+	text-decoration: none;
+}
+
+.main-menu>ul>li { -
+	-padding-top: 10px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 10px;
+}
+
+.main-menu a {
+	color: #000;
+	transition: 0.3s;
+	background-color: rgb(255, 255, 255, 0);
+}
+
+.main-menu a:hover {
+	background-color: rgb(255, 255, 255, 0);
+	transition: 0.3s;
+	color: brown;
+	text-decoration: none;
+}
+
+.hide.show {
+	color: #000;
+	/* background: black; */
+	transition: 0.3s;
+	/* transition: 0.2s; */
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 1;
+}
+
+.hide {
+	color: #000;
+	transition: 0.2s;
+	background-color: rgb(255, 255, 255, 0);
+	opacity: 0.2;
+}
+/*---------------body-------------------------------------*/
+#body {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+/*------------------------sub menu------------------------------*/
+.sub-menu>h1{
+	display:flex;
+	justify-content: center;
+	text-align: center;
+}
+.sub-menu>h1 {
+	margin: 50px auto 0px;
+	font-size: 40px;
+	font-family: "留��� 怨���", "怨���", Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: rgb(54, 47, 54);
+}
+
+/*----------------------------------------------------------*/
+/*---------------1st item------------------*/
+.best-item {
+	position: relative;
+}
+
+.best-item section {
+	margin: 20px;
+}
+
+.img { 
+	width: 400px;
+	height: 400px;
+}
+
+.description { 
+	transition: 400ms ease-out opacity;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	right: 0;
+	bottom: 0px;
+	opacity: 0;
+	background: rgb(0, 0, 0);
+	color: rgb(238, 234, 20);
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: oblique;
+	font-size: 25px;
+	overflow:hidden;
+	padding-right: 30px;
+}
+
+.description>dl>dt {
+	font-size: 40px;
+}
+
+/*---------------1st man's item------------------*/
+
+.best-item-m {
+	position: relative;
+	justify-content: start;
+}
+
+.img-best-m { 
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: -30px;
+	left: -50px;
+	z-index: 10;
+}
+
+.best-item-m:hover .description { 
+	opacity: 0.7;
+}  
+
+/*---------------1�� �ъ������------------------*/
+
+.best-item-w {
+	position: relative;
+	justify-content: start;
+}
+
+.img-best-w { 
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: -20px;
+	left: -40px;
+	z-index: 10;
+}
+
+.best-item-w:hover .description { 
+	opacity: 0.7;
+} 
+/*---------------1�� 怨듭�⑹����------------------*/
+
+.best-item-u {
+	position: relative;
+	justify-content: start;
+}
+
+.img-best-u { 
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: -20px;
+	left: -40px;
+	z-index: 10;
+}
+.best-item-u:hover .description {
+	opacity: 0.7;
+}  
+
+/*---------------1�� ��癒몄�(濡�, 珥�泥�) ����------------------*/
+
+.best-item-e {
+	position: relative;
+	justify-content: start;
+}
+
+.img-best-e {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: -20px;
+	left: -40px;
+	z-index: 10;
+}
+.best-item-e:hover .description {
+	opacity: 0.7;
+}
+ 
+
+/*------------1st items video------------------*/
+.ad-video {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.ad-video {
+	height: 550px;
+}
+
+.ad-video>section>h1 {
+	margin: 70px auto 50px;
+	font-size: 30px;
+	font-family: "留��� 怨���", "怨���", Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: rgb(54, 47, 54);
+}
+
+.ad-video-m {
+	visibility: visible;
+	margin-right: 10px;
+	width: 600px;
+	height: 350px;
+}
+
+.ad-video-w {
+	visibility: visible;
+	width: 600px;
+	height: 350px;
+}
+
+
+/*--------------------- 추천아템 ----------------------*/
+.recomm>h1 {
+	margin: 50px auto 50px;
+	padding-top: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: "Noto Sans KR", Arial, Helvetica, sans-serif;
+}
+
+.recomm-prdwrap {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.itemimg { 
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+.r-description {
+	transition: 400ms ease-out opacity;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+.r-description>dl>dt {
+	padding-top: 20px;
+}
+
+/*--------------- 추천 1 ------------------*/
+.recomm-item1 {
+	position: relative;
+}
+
+.recomm-item1 .itemtag1 { 
+	position: absolute;
+	z-index: 10;
+}
+
+
+.recomm-item1:hover .r-description {
+	opacity: 0.7;
+}
+
+
+/*--------------- 추천 2 ------------------*/
+.recomm-item2 {
+	position: relative;
+}
+
+.recomm-item2 .itemtag2 {
+	position: absolute;
+	z-index: 10;
+}
+
+
+.recomm-item2:hover .r-description {
+	opacity: 0.7;
+}
+
+
+/*--------------- 추천 3━ ------------------*/
+.recomm-item3 {
+	position: relative;
+}
+
+.recomm-item3 .itemtag3 {
+	position: absolute;
+	z-index: 10;
+}
+
+.recomm-item3:hover .r-description {
+	opacity: 0.7;
+}
+
+
+/*------------ footer ------------------*/
+.footer-container {
+	font-size: 14px;
+	font-weight: 200;
+	color: gray;
+	margin-top: 140px;
+	text-align: center;
+	width: 100%;
+	padding: 50px 0;
+	background: whitesmoke;
+}
